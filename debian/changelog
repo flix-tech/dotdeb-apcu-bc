@@ -1,0 +1,5 @@
+apcu-bc (1.0.1-1~dotdeb+8.1) stable; urgency=low
+
+  * Initial release for PHP 7.0
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Sun, 24 Jan 2016 15:37:42 -0700
