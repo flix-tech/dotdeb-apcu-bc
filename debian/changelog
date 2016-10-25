@@ -1,3 +1,9 @@
+apcu-bc (1.0.3-1~dotdeb+8.2+dbg1) stable; urgency=medium
+
+  * Build a dbg package
+
+ -- Mateusz Kijowski <mateusz@kijowski.info>  Tue, 25 Oct 2016 15:33:31 +0200
+
 apcu-bc (1.0.3-1~dotdeb+8.2) stable; urgency=medium
 
   * Rebuilt for PHP 7.0.8+
