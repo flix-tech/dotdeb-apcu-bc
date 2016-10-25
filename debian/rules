@@ -17,3 +17,6 @@ override_dh_auto_configure:
 override_dh_auto_clean:
 	dh_auto_clean --sourcedirectory=$(SOURCE_DIR)
 	cd $(SOURCE_DIR) && phpize7.0 --clean
+
+override_dh_strip:
+	dh_strip --dbg-package=php7.0-apcu-dbg

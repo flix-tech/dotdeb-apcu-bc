@@ -17,3 +17,13 @@ Depends: php7.0-apcu,
          ${shlibs:Depends}
 Description: APCu Backwards Compatibility Module
  This module provides a backwards APC compatible API using APCu.
+
+Package: php7.0-apcu-bc-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: php7.0-apcu-bc (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for php7.0-apcu-bc
+ This module provides a backwards APC compatible API using APCu.
+ .
+ This package contains the debugging symbols for php7.0-apcu
